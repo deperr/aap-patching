@@ -3,7 +3,7 @@ profile: production
 offline: false
 
 skip_list:
-  - "galaxy[no-changelog]"
+  - galaxy[no-changelog]
   - "403"
 
 exclude_paths:
