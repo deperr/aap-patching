@@ -6,12 +6,6 @@ The directory structure follows best practices recommended by the Ansible commun
 
 ```
  ansible-project/
- |── .devcontainer/
- |    └── docker/
- |        └── devcontainer.json
- |    └── podman/
- |        └── devcontainer.json
- |    └── devcontainer.json
  |── .github/
  |    └── workflows/
  |        └── tests.yml
