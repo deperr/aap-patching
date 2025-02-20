@@ -1,0 +1,12 @@
+---
+
+- name: Linux server patching
+  hosts: "{{ _hosts | default(omit) }}"
+  become: true
+
+  tasks:
+
+  - name: Ensure RHEL assets are registered
+    when: ansible_facts['os_family']|lower == 'redhat'
+    ansible.builtin.include_roles:
+      - dperrone.patching.linux

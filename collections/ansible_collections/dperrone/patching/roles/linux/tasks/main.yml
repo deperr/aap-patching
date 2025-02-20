@@ -1,0 +1,4 @@
+---
+# tasks file for linux
+
+- name: Ensure that the RHEL asset is registered

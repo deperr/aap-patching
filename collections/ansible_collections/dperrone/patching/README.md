@@ -1,4 +1,4 @@
-# Dperrone Patching Collection
+# Ansible Patching Collection
 
 This repository contains the `dperrone.patching` Ansible Collection.
 
