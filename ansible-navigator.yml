@@ -1,10 +1,16 @@
 ---
 ansible-navigator:
+
+  execution-environment:
+    image: ghcr.io/ansible/community-ansible-dev-tools:latest
+    pull:
+      policy: missing
+
   logging:
     level: debug
     append: false
     file: $PWD/.logs/ansible-navigator.log
 
   playbook-artifact:
-    enable: true
+    enable: false
     save-as: $PWD/.logs/{playbook_name}-artifact-{time_stamp}.json
