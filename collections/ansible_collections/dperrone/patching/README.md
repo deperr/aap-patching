@@ -1,10 +1,9 @@
-# Dperrone Patching Collection
+# AAP Linux Patching Collection
 
 This repository contains the `dperrone.patching` Ansible Collection.
 
-## Tested with Ansible
-
-Tested with ansible-core >=2.14 releases and the current development version of ansible-core.
+<!--start requires_ansible-->
+<!--end requires_ansible-->
 
 ## External requirements
 
@@ -12,11 +11,12 @@ Some modules and plugins require external libraries. Please check the requiremen
 
 ## Included content
 
-Please check the included content on the [Ansible Galaxy page for this collection](https://galaxy.ansible.com/dperrone/patching).
+<!--start collection content-->
+<!--end collection content-->
 
 ## Using this collection
 
-```
+```bash
     ansible-galaxy collection install dperrone.patching
 ```
 
@@ -39,7 +39,7 @@ You can also install a specific version of the collection, for example, if you n
 ansible-galaxy collection install dperrone.patching:==X.Y.Z
 ```
 
-See [Ansible Using Collections](https://docs.ansible.com/ansible/latest/user_guide/collections_using.html) for more details.
+See [Ansible Using collections](https://docs.ansible.com/ansible/latest/user_guide/collections_using.html) for more details.
 
 ## Release notes
 

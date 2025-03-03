@@ -1,5 +1,5 @@
-Dperrone.Patching Run Role
-========================
+Role Name
+=========
 
 A brief description of the role goes here.
 
@@ -23,32 +23,13 @@ Example Playbook
 
 Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
 
-```yaml
-- name: Execute tasks on servers
-  hosts: servers
-  roles:
-    - role: dperrone.patching.run
-      run_x: 42
-```
-
-Another way to consume this role would be:
-
-```yaml
-- name: Initialize the run role from dperrone.patching
-  hosts: servers
-  gather_facts: false
-  tasks:
-    - name: Trigger invocation of run role
-      ansible.builtin.include_role:
-        name: dperrone.patching.run
-      vars:
-        run_x: 42
-```
+    - hosts: servers
+      roles:
+         - { role: username.rolename, x: 42 }
 
 License
 -------
 
-# TO-DO: Update the license to the one you want to use (delete this line after setting the license)
 BSD
 
 Author Information
